@@ -1,0 +1,17 @@
+{
+  "name": "gmail-connector-examples",
+  "version": "1.0.0",
+  "description": "Examples for Gmail API Connector",
+  "scripts": {
+    "basic": "node basic-usage.js",
+    "advanced": "node advanced-usage.js",
+    "typescript": "npx ts-node typescript-usage.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.8.0"
+  }
+}
